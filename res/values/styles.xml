@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="action_bar">
+        <item name="android:background">@drawable/bg_header</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:tileMode">repeat</item>        
+    </style>
+    <style name="actionbar_button" parent="android:Widget.ImageButton">
+        <item name="android:background">@drawable/action_bar_button</item>
+        <item name="android:padding">20px</item>        
+    </style>
+    <style name="interventionDetailField" parent="android:Widget.TextView">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:padding">10px</item>
+    </style>
+    <style name="list_view_style1" parent="android:Widget.ListView.White">
+        <item name="android:divider">@drawable/list_divider</item>
+        <item name="android:padding">20px</item>
+    </style>
+    <style name="detailsscreen_label_field_style" parent="@style/interventionDetailField">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="styleRatingBarEval">
+        <item name="android:isIndicator">false</item>
+        <item name="android:numStars">5</item>
+        <item name="android:stepSize">1</item>
+    </style>
+    <style name="field_style">
+        <item name="android:background">@drawable/field_background</item>
+        <item name="android:layout_margin">10px</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+</resources>
