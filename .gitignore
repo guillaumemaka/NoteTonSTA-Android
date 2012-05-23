@@ -4,3 +4,9 @@
 *.war
 *.ear
 .DS_Store
+
+bin
+gen
+build
+.metadata
+classes
